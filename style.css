@@ -1,0 +1,41 @@
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+center {
+    text-align: -webkit-center;
+}
+
+BODY, TD {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Georgia,Verdana,Arial,Helvetica,"sans-serif";
+    font-size: 12pt;
+}
+
+table {
+    border-collapse: collapse;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+
+h3, h2 {
+    font-family: Verdana,Arial,Helvetica,"sans-serif";
+    color:  #800000;
+}
+
+h1 {
+    color:  #800000;
+    font-family: Verdana,Arial,Helvetica,"sans-serif";
+    font-style: italic;
+}
