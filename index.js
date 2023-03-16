@@ -6,9 +6,9 @@ const app = express();
 
 const private_key = fs.readFileSync("/etc/letsencrypt/live/www.beryllium.dev/privkey.pem", "utf-8");
 
-const certificate = fs.readFileSync("/etc/letsencrypt/live/www.beryllium.dev/fullchain.pem", "utf-8");
+const certificate = fs.readFileSync("/etc/letsencrypt/live/www.beryllium.dev/cert.pem", "utf-8");
 
-const ca = fs.readFileSync("/etc/letsencrypt/live/www.beryllium.dev/fullchain.pem", "utf-8");
+const ca = fs.readFileSync("/etc/letsencrypt/live/www.beryllium.dev/chain.pem", "utf-8");
 
 const credentials = {
 	key: private_key,
