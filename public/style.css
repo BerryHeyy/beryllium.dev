@@ -39,3 +39,7 @@ h1 {
     font-family: Verdana,Arial,Helvetica,"sans-serif";
     font-style: italic;
 }
+
+p + ul {
+    margin-top: 0px;
+}
