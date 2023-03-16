@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require("fs");
 const https = require("https");
 const express = require("express");
@@ -22,6 +24,6 @@ app.get("/", (req, res) => {
 	res.sendFile(__dirname + "/index.html");
 });
 
-const httpsServer = https.createServer(certificate, app);
+const httpsServer = https.createServer(credentials, app);
 
 httpsServer.listen(443);
