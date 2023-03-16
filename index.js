@@ -18,7 +18,7 @@ const credentials = {
 	ca: ca
 };
 
-app.use(express.static(__dirname + '/public/'));j
+app.use(express.static(__dirname + '/public/'));
 
 app.get("/", (req, res) => {
 	console.log("Test");
