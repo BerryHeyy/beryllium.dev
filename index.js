@@ -18,10 +18,12 @@ const credentials = {
 	ca: ca
 };
 
+app.use(express.static(__dirname + '/public/'));j
+
 app.get("/", (req, res) => {
 	console.log("Test");
 
-	res.sendFile(__dirname + "/index.html");
+	res.sendFile(__dirname + "/public/index.html");
 });
 
 const httpsServer = https.createServer(credentials, app);
