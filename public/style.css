@@ -1,45 +1,63 @@
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
+@font-face {
+	font-family: JetBrainsMonoNL;
+	src: url(JetBrains_Mono_NL_Regular.ttf);
 }
 
-center {
-    text-align: -webkit-center;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: JetBrainsMonoNL;
 }
 
-BODY, TD {
-    margin-left: 5%;
-    margin-right: 5%;
-    font-family: Georgia,Verdana,Arial,Helvetica,"sans-serif";
-    font-size: 12pt;
+a {
+	color: #cfe5ff;
+	text-decoration: none;
 }
 
-table {
-    border-collapse: collapse;
-    text-indent: initial;
-    white-space: normal;
-    line-height: normal;
-    font-weight: normal;
-    font-size: medium;
-    font-style: normal;
-    color: -internal-quirk-inherit;
-    text-align: start;
-    border-spacing: 2px;
-    font-variant: normal;
+p {
+	padding-bottom: 20px;
 }
 
-h3, h2 {
-    font-family: Verdana,Arial,Helvetica,"sans-serif";
-    color:  #800000;
+ul {
+	color: white;
+	list-style-position: inside;
+	padding-bottom: 20px;
 }
 
-h1 {
-    color:  #800000;
-    font-family: Verdana,Arial,Helvetica,"sans-serif";
-    font-style: italic;
+body {
+	background-color: #292929;
 }
 
-p + ul {
-    margin-top: 0px;
+.header {
+	padding: 0px;
+	text-align: center;
+	background-color: #242424;
+	height: 200px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header h1 {
+	color:white;
+}
+
+.header h3 {
+	color: #cfe5ff;
+}
+
+.header h3 span {
+	color: white;
+}
+
+.content {
+	position: relative;
+	top: 60px;
+	left: 200px;
+	width: calc(100% - 200px - 100px);
+}
+
+.content p {
+	color: white;
 }
