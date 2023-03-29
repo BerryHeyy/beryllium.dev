@@ -32,7 +32,7 @@ body {
 	background-color: #292929;
 }
 
-.header {
+#header {
 	padding: 0px;
 	text-align: center;
 	background-color: #242424;
@@ -43,29 +43,29 @@ body {
 	justify-content: center;
 }
 
-.header h1 {
+#header h1 {
 	color:white;
 }
 
-.header h3 {
+#header h3 {
 	color: #cfe5ff;
 }
 
-.header h3 span {
+#header h3 span {
 	color: white;
 }
 
-.content {
+#content {
 	position: relative;
 	top: 60px;
 	left: 200px;
 	width: calc(100% - 200px - 100px);
 }
 
-.content p {
+#content p {
 	color: white;
 }
 
-.content details {
+#content details {
 	color: white;
 }
