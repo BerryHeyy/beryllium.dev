@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="../style.css">
+
+		<script src="display_pgp.js"></script>
+		
+		<title>Beryllium</title>
+	</head>
+	<body>
+		<div id="header">
+			<h1>beryllium</h1>
+			<h3>
+				<a href="../index.html">home</a>
+				<span> / </span>
+				<a href="../blog.html">blog</a>
+				<span> / </span>
+				<a href="../about_me.html">about me</a>
+				<span> / </span>
+				<a href="../projects.html">projects</a>
+				<span> / </span>
+				<a href="../links.html">links</a>
+			</h3>
+		</div>
+		<div id="content">
+			<label class="switch" id="pgp_toggle" title="Toggle PGP signed message display.">
+				<input type="checkbox">
+				<span class="slider"></span>
+			</label>
+			<div id="contentpgpbegin">
+<pre>
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+</pre>
+			</div>
+<div id="blogcontent">
+	<h1>hey</h1>
+
+	<p>
+		Hey, welcome to my blog. This is the first entry of (what I hope to be) a long series of blog posts.
+	</p>
+
+	<p>
+		In this blog I will try to take you (the reader) along with me on my journey as a developer. The blog is also meant as an organized timeline of all my development related discoveries. These discoveries will primarily be related to Vulkan and game engine development for the time being, as I'm currently working on a game engine that uses Vulkan as a rendering backend. The development of my game engine (<a href="https://github.com/BerryHeyy/lsockengine" target="_blank">LiSE</a>) will be on pause for the time being, as I plan on documenting the entire journey up until this point in this very blog. After which I will continue development and make blog posts upon new discoveries.
+	</p>
+
+	<p>
+		As you might have noticed, there is a big blue toggle switch on the upper right of every blog post. This is the "PGP signed message" display toggle. Switching this toggle on will display the blog as a signed PGP message, so that anyone can confirm that the contents of these blog posts have not been altered in any way. You can find my public key in the <a href="../about_me.html" target="_blank">about me page</a>.
+	</p>
+
+	<p>
+		See you in the next blog post!
+	</p>
+
+	<p>
+		Berry<br>
+		29-03-2023
+	</p>
+</div>
+			<div id="contentpgpend">
+<pre>
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEC7Z49Z0tUKKs4YFgB1QFFlXjqXcFAmQkRiMACgkQB1QFFlXj
+qXel/Q//UKvETQQkbPDHOq1XcFYyNh7Ib3l8ei6X3McPPQo/F8qQYbJS0673JJo3
+Eu6U8ye1i1T0VYHQqfRM4Ys66wQnxPH2sN5PeC/39KaWADIaM4HBdQHLnhp8pXYe
+4l9uKa625kgqU8RNwx8dfUNKzekS43q+tPdeSOk/TuH4T/6aoqUu5kvk5K+KlECC
+P9KaJIFRIMmVoq8nQGZw2Q99qOMy8ExPzZEvBjcc81GHjexdWtdO6XIn1JhCllRx
+SYktRk1zpG03es1Aeckplc4jt534insnQ9S+SmTwqHo1eB5jjFwJ79G6+pDfO/XH
+as9YBYdslaNdG+M282PGChKbswhAl9+xAIwHb7LOmS5JPFTYFmJXSgQvcBywtGQg
+ecjIMOilBFBQaLbDAmnZ6F8tY/y5Qva/m0DsKk7sVtNuac94eSZgYBm55y0Vjssm
+1MEcybYVrcIg8kmKan8Q3ZMZBaCaOpXjWz19JoZ5S/Mb2+x7vgS9eggxJdvM/pcJ
+jYHCTCjK1SuQs+3C2lCtGDsyde3HRS6ceAYiHYeA0QSbiX55aUTSS4WisyN3quDl
+1TxU1n94LMAxuiKG0H2iMgRPjKDQLwU84xYn3KrfdxvJA/hg4yo/RM7x/i/8bBCE
+1YpAGOEE6LDuYmua+JzT0L3+936pR1KwhAb30CDeXRkhG5YNQZg=
+=q7TN
+-----END PGP SIGNATURE-----
+</pre>
+			</div>
+		</div>
+	</body>
+</html>
