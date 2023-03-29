@@ -65,3 +65,7 @@ body {
 .content p {
 	color: white;
 }
+
+.content details {
+	color: white;
+}
