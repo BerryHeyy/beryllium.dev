@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="../style.css">
+		<link rel="icon" href="../images/icon.png">
+
+		<script src="display_pgp.js"></script>
+		
+		<title>Beryllium</title>
+	</head>
+	<body>
+		<div id="header">
+			<h1>beryllium</h1>
+			<h3>
+				<a href="../index.html">home</a>
+				<span> / </span>
+				<a href="../blog.html">blog</a>
+				<span> / </span>
+				<a href="../about_me.html">about me</a>
+				<span> / </span>
+				<a href="../projects.html">projects</a>
+				<span> / </span>
+				<a href="../links.html">links</a>
+			</h3>
+		</div>
+		<div id="content">
+			<label class="switch" id="pgp_toggle" title="Toggle PGP signed message display.">
+				<input type="checkbox">
+				<span class="slider"></span>
+			</label>
+			<div id="contentpgpbegin">
+<pre>
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+</pre>
+			</div>
+<div id="blogcontent">
+	<h1>LiSE: Genesis</h1>
+
+	<p>
+		Why my own game engine? Why Vulkan and not OpenGL? DirectX? In this blog post I'll be talking about the decisions behind me choosing to make my own game engine instead of using an already existing game engine. I'll also be talking about why I chose to use Vulkan instead of OpenGL.
+	</p>
+
+	<p>
+		Why create an entire game engine on my own? The reason is very simple really; programming is my hobby, and I love it, so why take a shortcut? Isn't the best part of any journey the friends you make along the way? In this case "friends" being experience in game engine architecture and advanced APIs like Vulkan (haha). Learning the ins and outs of Vulkan has really brought a new light on game development as a whole for me. Device queues, descriptor sets, semaphores and fences, it's like a huge lego kit for you to tinker with and find the most efficient and optimal program layout. For this reason alone, I would recommend any hobbyist to dive straight into making games with Vulkan and your own game engine. But still, it's not for everyone, if you really just want to make a game and don't care about optimizations or what's going on behind the scenes of your game, then I'd recommend using Godot or another free (as in freedom) game engine/framework. Stay away from Unity! Their engine is proprietary and their licenses require you to pay for subscriptions if your gross annual revenue is over 100k USD! (Source: <a href="https://unity.com/legal/editor-terms-of-service/software" target="_blank">section 1.1, Financial Threshholds</a>.)
+	</p>
+
+	<p>
+		Why not use OpenGL or DirectX? I've used OpenGL before, but I feel that it's very restrictive, as I've had to circumvent and/or work around the built-in-ness of the entire API before. There's an argument that OpenGL is easier than Vulkan, and thus a good idea for beginners. While this is certainly true for some, I feel that having to constantly search for solutions specific to OpenGL is a harder time than learning Vulkan and completely understanding your programs inner workings. In my opinion, working with Vulkan is like writing your own API, as you do not want to constantly use the dozens of Vulkan functions to do any menial task like creating staging buffers and transfering data from said buffer to another buffer and destroying the staging buffer for example. You'd rather create your own functions and interfaces for such tasks. Lastly, DirectX is a huge no-go for me, as it does not provide native support for Linux. 
+	</p>
+
+	<p>
+		To conclude, I like doing things on my own, and find great joy in overcoming obstacles and optimizing the living hell out of software. I love learning and discovering new things. These are some of the reasons of why I chose to create my own game engine using Vulkan and didn't use an already existing game engine. I know this blog post was very subjective, and thats fine, but I plan for this blog to be a repository of learning materials for other self-taught hobbyists like me. Thats why I plan on posting a lot of educative blogs regarding Vulkan and game engine development next.
+	</p>
+
+	<p>
+		See you in the next blog post!
+	</p>
+
+	<p>
+		Berry<br>
+		30-03-2023
+	</p>
+</div>
+			<div id="contentpgpend">
+<pre>
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEC7Z49Z0tUKKs4YFgB1QFFlXjqXcFAmQlV9QACgkQB1QFFlXj
+qXcPaxAAyY9ZVxlxVzuvCUe2kq3fFS1He1e0TpQzNK9kI07zYC/vTBObXnoR0ph9
+WFPezlCDBkEcoWe70B/Im5sPN+mNe6SBcKJbCwDLfVcR8EOOFaKEzgfc5kItASNV
+r+cmXsJQifcFNvE933+NcYluTbIP4kM66jbFI1eo6mM57A+gyIlzvHUS4GeXUimH
+G1tdTwgXEmn2asKRcWEq3gkJwMGEmQ6+MQ8Hbp9Pw2zJz+peOihI1POb8n2uADlQ
+zivJUoowE7mmndrLaYpJbBvAU+lxcX3/f5P2PSs6KnL0GxplhIT4keGGfQzC59B4
+V616yBr00h85IhnQy3gGbNHrUAi9R9Tq7Oe/MguCvfETiDUwWz7GA2/hgFX74vsK
+bqcmWEytfHtyyAinLD8W3c6OX9jQMc0hKjwX0lQ4HTzQXYdW0H3nOZGssWdmlJOI
+Jev9dzYKfRA0u/d9JVTEtrbIBZRVhdp/aNlUpoBUy3/wzZPoo3rBgct8kwfcTtoz
+dH8HU9M7DKxlU9Yz2OIUT7I477moiUkljgirz+ButX9+bo20Swd7AqI1fbdz24aH
+5Ybmd+C+nELM6IAinVxAf1oweEssfLItBOLUROOXkOtGU3CVmDN2R026b2oOcotE
+6D0ItssOfbkfWA0jh7Y/ULCDUX41SZnWuuRPjwp1Fv/kpkgq2LU=
+=d+6C
+-----END PGP SIGNATURE-----
+</pre>
+			</div>
+		</div>
+	</body>
+</html>
